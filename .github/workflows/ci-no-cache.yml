@@ -1,5 +1,10 @@
 name: CI without cache
 
+# on:
+#   push:
+#     branches:
+#       - main
+
 on: workflow_dispatch
 
 jobs:
